@@ -10,11 +10,7 @@ ds <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytue
 
 #check NA values
 sum(is.na(ds)) #how much
-
-#if there is NA
-dim(ds)
 ds <- ds %>% drop_na()
-dim(ds)
 
 #data wrangling
 plot_data <- ds %>% select(artist_name, year, artist_nationality_other, artist_gender, book, space_ratio_per_page_total) %>%
