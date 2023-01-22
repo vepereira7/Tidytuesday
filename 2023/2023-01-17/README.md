@@ -7,5 +7,5 @@ From [Tidytuesday/2023-01-17
 <br />
 
 ## Plot
-![art](https://user-images.githubusercontent.com/113248746/213896828-818b9786-f51b-42d1-9a05-7e056b042bcf.png)
+![art](https://user-images.githubusercontent.com/113248746/213897252-9c42cda9-4990-484e-a3f2-b83cf6f48d0b.png)
 
