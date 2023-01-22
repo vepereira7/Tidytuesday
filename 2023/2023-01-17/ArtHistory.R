@@ -29,10 +29,10 @@ plot <- ggplot(plot_data,
      size=4, 
      aes(fill=(artist_gender))) + 
     scale_fill_manual(values=c('pink', 'lightblue')) + 
-    labs(title = 'Space ratio mean per page for each country, by gender',
+    labs(title = 'Space ratio average per page for each country, by gender',
     	fill = 'Gender',
     	x = 'Countries',
-    	y = 'Space ratio',
+    	y = 'Space ratio (avg)',
     	caption = paste( "Vitor Pereira |" , today() )) +
     theme(panel.background = element_rect(fill = "white", colour = "grey50"),
     	plot.title = element_text(hjust = 0.5, face = "bold", size = 18, family = 'Monaco'),
