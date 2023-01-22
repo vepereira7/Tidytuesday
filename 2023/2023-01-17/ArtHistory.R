@@ -29,10 +29,10 @@ plot <- ggplot(plot_data,
      size=4, 
      aes(fill=(artist_gender))) + 
     scale_fill_manual(values=c('pink', 'lightblue')) + 
-    labs(title = 'Space ratio average per page for each country, by gender',
+    labs(title = 'Space average ratio per page for each country, by gender',
     	fill = 'Gender',
     	x = 'Countries',
-    	y = 'Space ratio (avg)',
+    	y = 'Space (avg) ratio',
     	caption = paste( "Vitor Pereira |" , today() )) +
     theme(panel.background = element_rect(fill = "white", colour = "grey50"),
     	plot.title = element_text(hjust = 0.5, face = "bold", size = 18, family = 'Monaco'),
@@ -42,4 +42,4 @@ plot <- ggplot(plot_data,
     	legend.text = element_text(family = 'Monaco'),
     	plot.caption = element_text(face = 'bold'))
 
-ggsave( filename = "plot_p5.png", plot = plot , width = 20, height = 15, units = "cm", dpi = 600)
+ggsave( filename = "art.png", plot = plot , width = 20, height = 15, units = "cm", dpi = 600)
