@@ -71,7 +71,7 @@ plot <- ggplot(df) +
     geom_text(x = stats_males$mean+1, y = 1, label = "Avg", angle = 90, size = 3.5, color = "#00BFFF", family = 'Teko') +
     facet_grid(age_years ~ ., scales = "free", switch = "y") + 
 	labs(title = "**Cat's prey**",
-			subtitle = "<span style = 'color: #00BFFF;'>**Male**</span> and <span style = 'color: #FF69B4;'>**Female**</span> Cat's prey from birth until 12 years old<br>",
+			subtitle = "<span style = 'color: #00BFFF;'>**Male**</span> and <span style = 'color: #FF69B4;'>**Female**</span> Cat's prey during the study<br>",
 	    caption = "**Vitor Pereira** | **Source:** Pets Cat UK",
 	    x = 'Total',
 	    y = 'Age') +
